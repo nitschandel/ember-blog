@@ -1,0 +1,15 @@
+{{#if isEditing }}
+	{{ partial 'post/edit'}}
+	<button {{action 'doneEditing'}} class="btn btn-success"> Done </button>
+{{else}}
+<button {{action 'edit'}} class="btn btn-primary">Edit</button>
+{{/if}}
+<h2> {{title}} </h2>
+
+<h3> by {{author.name}} <small class="muted"> {{format-date date}} </small> </h3> 
+
+<hr>
+
+<div >
+{{format-markdown body}}
+</div>
