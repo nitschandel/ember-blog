@@ -1,7 +1,6 @@
 # Blog
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A simple blog built for the understanding of Ember-cli.
 
 ## Prerequisites
 
@@ -11,7 +10,6 @@ You will need the following things properly installed on your computer.
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
